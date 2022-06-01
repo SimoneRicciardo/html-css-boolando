@@ -10,6 +10,10 @@ main, .command-top, .info-bottom{
     margin: 0 auto;
 }
 
+.relative{
+    position: relative;
+}
+
 .flex{
     display: flex;
 }
@@ -21,6 +25,17 @@ main, .command-top, .info-bottom{
 .between{
     justify-content: space-between;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 4px;
+}
+
+a:hover{
+    color: rgb(64, 115, 255);
+}
+
 /* end general rule*/
 
 /* start header*/
@@ -28,6 +43,10 @@ main, .command-top, .info-bottom{
 .container-header{
     height: 70px;
     background-color: rgb(255,105,0);
+}
+
+#logo-top{
+    height: 30px;
 }
 
 /* end start header*/
@@ -41,12 +60,42 @@ main, .command-top, .info-bottom{
     margin-top: 70px;
 }
 
+.card > img{
+    width: 100%;
+}
+
+.wow{
+    display: none;
+}
+
+.card:hover .wow{
+    display: block;
+}
+
+.card:hover .principale{
+    display: none;
+}
+
+.heart{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+div > .fa-heart{
+    font-size: 20px;
+    color: black;
+}
+
 /*start footer*/
 
 .container-footer{
     height: 80px;
     background-color: rgb(26,26,26);
-    margin-top: 50px;
+    margin:50px 0px 1px 0px;
     justify-content: space-between;
     align-content: center;
 }
