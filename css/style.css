@@ -1,20 +1,26 @@
+/* start general rule*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/* start general rule*/
+
+main, .command-top, .info-bottom{
+    width: 1110px;
+    margin: 0 auto;
+}
 
 .flex{
     display: flex;
 }
 
-main{
-    width: 1110px;
-    margin: 0 auto;
+.center{ /*align-items ecc.. : center*/
+    align-items: center;
 }
 
-
+.between{
+    justify-content: space-between;
+}
 /* end general rule*/
 
 /* start header*/
@@ -24,20 +30,9 @@ main{
     background-color: rgb(255,105,0);
 }
 
-.command-top{
-    width: 1110px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-}   
-
 /* end start header*/
 
 /*start main*/
-
-.container-card{
-    justify-content: space-between;
-}
 
 .card{
     height: 500px;
@@ -52,8 +47,10 @@ main{
     height: 80px;
     background-color: rgb(26,26,26);
     margin-top: 50px;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .info-bottom{
-
+    height: 100%;
 }
