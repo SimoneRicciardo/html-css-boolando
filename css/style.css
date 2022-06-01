@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* start general rule*/
+
+.flex{
+    display: flex;
+}
+
+/* end general rule*/
+
+/* start header*/
+
+.header-contain{
+    height: 80px;
+    background-color: rgb(255,105,0);
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* end start header*/
+
+/*start main/*
+
