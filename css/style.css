@@ -137,7 +137,7 @@ span{
     height: 100%;
 }
 
-div h3{
+.info-bottom div h3{
     color: white;
     margin-bottom: 3px;
 }
